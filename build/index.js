@@ -43,19 +43,6 @@ app.use((0, cors_1.default)());
 app.use(express_1.default.urlencoded({ extended: false }));
 app.use(express_1.default.json());
 // Rutas
-app.use('/', (_req, res) => {
-    const htmlResponse = `
-        <html>
-            <head>
-                <title>Test Otaku</title>
-            </head>
-            <body>
-                <h3>Test del Otaku en linea!!</h3>
-            </body>
-        </html>
-    `;
-    res.send(htmlResponse);
-});
 app.use('/preguntas', quiz_routes_1.default);
 app.use('/participantes', participante_routes_1.default);
 app.use('/usuarios', usuario_routes_1.default);
