@@ -19,19 +19,6 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
 // Rutas
-app.use('/', (_req,res)=>{
-    const htmlResponse = `
-        <html>
-            <head>
-                <title>Test Otaku</title>
-            </head>
-            <body>
-                <h3>Test del Otaku en linea!!</h3>
-            </body>
-        </html>
-    `
-    res.send(htmlResponse);
-})
 app.use('/preguntas', preguntas);
 app.use('/participantes', participantes);
 app.use('/usuarios', usuarios)
