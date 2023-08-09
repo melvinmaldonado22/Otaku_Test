@@ -10,12 +10,12 @@ const authUser = async function(req:Request, res:Response){
                 url: '/seleccion-nivel'
             })
         }else{
-            res.status(500).json({
+            res.json({
                 message: 'Contraseña incorrecta'
             });
         }
     } catch (error) {
-        res.status(500).json({
+        res.json({
             message: 'Usuario no encontrado'
         });
     }
