@@ -6,6 +6,7 @@ import preguntas from './routes/quiz-routes';
 import usuarios from './routes/usuario-routes';
 import participantes from './routes/participante-routes'
 import morgan from 'morgan';
+import path from 'path';
 import cors from 'cors';
 
 const PORT = process.env.PORT || 8888;
@@ -19,6 +20,7 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
 // Rutas
+app.use(express.static(path.join(__dirname, 'public')));
 app.use('/preguntas', preguntas);
 app.use('/participantes', participantes);
 app.use('/usuarios', usuarios)
