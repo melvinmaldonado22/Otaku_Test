@@ -7,15 +7,18 @@ const authUser = async function(req:Request, res:Response){
         const usuario = await usuarioModel.find({usuario:req.body.usuario});
         if(usuario[0].contraseña===contraseña){
             return res.json({
-                url: '/seleccion-nivel'
+                auth: true,
+                url: '/cuestionario.html'
             })
         }else{
             res.json({
+                auth: false,
                 message: 'Contraseña incorrecta'
             });
         }
     } catch (error) {
         res.json({
+            auth: false,
             message: 'Usuario no encontrado'
         });
     }

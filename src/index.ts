@@ -20,7 +20,7 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
 // Rutas
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '../public')));
 app.use('/preguntas', preguntas);
 app.use('/participantes', participantes);
 app.use('/usuarios', usuarios)
