@@ -18,20 +18,29 @@ const authUser = function (req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const contraseña = req.body.contraseña;
+            if (!req.body.usuario) {
+                return res.json({
+                    auth: false,
+                    message: 'Ingrese un usuario válido'
+                });
+            }
             const usuario = yield usuario_1.default.find({ usuario: req.body.usuario });
             if (usuario[0].contraseña === contraseña) {
                 return res.json({
-                    url: '/seleccion-nivel'
+                    auth: true,
+                    url: '/cuestionario.html'
                 });
             }
             else {
-                res.status(500).json({
+                res.json({
+                    auth: false,
                     message: 'Contraseña incorrecta'
                 });
             }
         }
         catch (error) {
-            res.status(500).json({
+            res.json({
+                auth: false,
                 message: 'Usuario no encontrado'
             });
         }
