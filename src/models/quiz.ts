@@ -27,7 +27,16 @@ class pregunta {
     tipo: string
 
     @prop({required:true})
+    nivel: string
+
+    @prop({required:true})
     respuesta : string
+
+    @prop({required:true})
+    universo : string
+
+    @prop({required:true})
+    anime : string
 }
 
 const quizModel =  getModelForClass(pregunta)

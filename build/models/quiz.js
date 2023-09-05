@@ -46,6 +46,18 @@ __decorate([
 __decorate([
     (0, typegoose_1.prop)({ required: true }),
     __metadata("design:type", String)
+], pregunta.prototype, "nivel", void 0);
+__decorate([
+    (0, typegoose_1.prop)({ required: true }),
+    __metadata("design:type", String)
 ], pregunta.prototype, "respuesta", void 0);
+__decorate([
+    (0, typegoose_1.prop)({ required: true }),
+    __metadata("design:type", String)
+], pregunta.prototype, "universo", void 0);
+__decorate([
+    (0, typegoose_1.prop)({ required: true }),
+    __metadata("design:type", String)
+], pregunta.prototype, "anime", void 0);
 const quizModel = (0, typegoose_1.getModelForClass)(pregunta);
 exports.default = quizModel;
