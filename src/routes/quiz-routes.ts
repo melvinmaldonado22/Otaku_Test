@@ -10,10 +10,14 @@ import {
     preguntasTextoManga,
     preguntasTextoShoujo,
     preguntasTextoHentai,
-    guardarPreguntaTexto
+    guardarPreguntaTexto,
+    borrarPregunta,
+    editarPregunta
 } from "../controllers/quiz-controller";
 
 const router = express.Router();
+
+// ::::::::::::::::::: Rutas GET :::::::::::::::::::::::::::::::::
 
 router.get('/texto-facil', preguntasTextoFacil);
 router.get('/texto-medio', preguntasTextoMedio);
@@ -26,6 +30,18 @@ router.get('/texto-hentai', preguntasTextoHentai);
 router.get('/audio', preguntasAudio);
 router.get('/imagen', preguntasImg);
 
-router.post('/guardarPregunta-texto', guardarPreguntaTexto)
+// ::::::::::::::::::: Rutas POST :::::::::::::::::::::::::::::::::
+
+router.post('/guardar-pregunta-texto', guardarPreguntaTexto);
+
+// ::::::::::::::::::: Rutas DELETE :::::::::::::::::::::::::::::::::
+
+router.put('/editar-pregunta-texto/:id', editarPregunta);
+
+// ::::::::::::::::::: Rutas DELETE :::::::::::::::::::::::::::::::::
+
+router.delete('/borrar-pregunta/:id', borrarPregunta);
+
+
 
 export default router;

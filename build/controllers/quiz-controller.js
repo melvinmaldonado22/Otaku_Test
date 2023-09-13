@@ -72,7 +72,7 @@ const guardarPreguntaImagen = (req, res) => __awaiter(void 0, void 0, void 0, fu
 // ::::::::::::::::::::::::::::::: Métodos GET :::::::::::::::::::::::::::::::::::::::::::::
 const preguntasTextoFacil = (_req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const preguntas = yield quiz_1.default.find({ tipo: 'texto', nivel: 'fácil' });
+        const preguntas = yield quiz_1.default.find({ tipo: 'texto', nivel: 'facil' });
         res.json(preguntas);
     }
     catch (error) {

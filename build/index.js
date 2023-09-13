@@ -43,9 +43,9 @@ app.use((0, cors_1.default)());
 app.use(express_1.default.urlencoded({ extended: false }));
 app.use(express_1.default.json());
 // Rutas
-app.use('/preguntas', quiz_routes_1.default);
-app.use('/participantes', participante_routes_1.default);
-app.use('/usuarios', usuario_routes_1.default);
+app.use('/api/preguntas', quiz_routes_1.default);
+app.use('/api/participantes', participante_routes_1.default);
+app.use('/api/usuarios', usuario_routes_1.default);
 app.listen(PORT, () => {
     console.log(`Servidor levantado en el puerto ${PORT}`);
 });

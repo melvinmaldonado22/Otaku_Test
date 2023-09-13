@@ -19,9 +19,9 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
 // Rutas
-app.use('/preguntas', preguntas);
-app.use('/participantes', participantes);
-app.use('/usuarios', usuarios)
+app.use('/api/preguntas', preguntas);
+app.use('/api/participantes', participantes);
+app.use('/api/usuarios', usuarios)
 
 app.listen(PORT, ()=>{
     console.log(`Servidor levantado en el puerto ${PORT}`);
