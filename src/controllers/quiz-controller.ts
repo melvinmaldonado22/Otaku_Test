@@ -108,7 +108,7 @@ const preguntasTextoOtaku = async (_req: Request, res: Response) =>{
 
 const preguntasTextoAnimeClasico = async (_req: Request, res: Response) =>{
     try{
-        const preguntas = await quizModel.find({tipo:'texto' , universo:'animeClasico'});
+        const preguntas = await quizModel.find({tipo:'texto' , nivel:'animeClasico'});
         res.status(200).json(preguntas);
     } catch (error){
         res.status(500).json({

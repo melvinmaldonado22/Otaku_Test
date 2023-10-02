@@ -1,6 +1,6 @@
 [
     {
-        "pregunta": "¿Cúantos capitulos tiene Death Note?",
+        "pregunta": "¿Cúantos capítulos tiene Death Note?",
         "opcion1": "38",
         "opcion2": "36",
         "opcion3": "40",
@@ -12,7 +12,7 @@
         "anime": "death note"
     },
     {
-        "pregunta": "¿Cúal fue la primera dueña de kirara? (Inuyasha)",
+        "pregunta": "¿Cúal fue la primera dueña de kirara en Inuyasha?",
         "opcion1": "Zango",
         "opcion2": "Kohaku",
         "opcion3": "Kikyo",
@@ -24,7 +24,7 @@
         "anime": "inuyasha"
     },
     {
-        "pregunta": "¿Como se llama la mamá de Sazuke Uchiha?",
+        "pregunta": "¿Cómo se llama la mamá de Sazuke Uchiha?",
         "opcion1": "Tayuya",
         "opcion2": "Kushina",
         "opcion3": "Midoriko",
@@ -36,8 +36,8 @@
         "anime": "naruto"
     },
     {
-        "pregunta": "¿Como se llama el hermano de eduard elric?",
-        "opcion1": "Arcanjel",
+        "pregunta": "¿Cómo se llama el hermano de Eduard Elric?",
+        "opcion1": "Alvaro",
         "opcion2": "Alexander",
         "opcion3": "Andrew",
         "opcion4": "Adolfo",
@@ -48,7 +48,7 @@
         "anime": "full metal alchemist"
     },
     {
-        "pregunta": "¿Cuál es el objetivo principal de Goku en Dragon Ball?",
+        "pregunta": "¿Cuál es el objetivo principal de Goku en Dragon Ball Z?",
         "opcion1": "Conseguir el poder de Dios",
         "opcion2": "Convertirse en el guerrero más guapo",
         "opcion3": "Convertirse en rey",
@@ -60,19 +60,19 @@
         "anime": "dragon ball"
     },
     {
-        "pregunta": "¿Qué biju tiene Naruto Uzumaki en su interior?",
-        "opcion1": "el biju de 2 colas",
-        "opcion2": "el biju de 7 colas",
-        "opcion3": "el biju de 10 colas",
-        "opcion4": "el biju de 8 colas",
-        "respuesta": "el biju de 9 colas",
+        "pregunta": "¿Qué bijuu tiene Naruto Uzumaki en su interior?",
+        "opcion1": "el bijuu de 2 colas",
+        "opcion2": "el bijuu de 7 colas",
+        "opcion3": "el bijuu de 10 colas",
+        "opcion4": "el bijuu de 8 colas",
+        "respuesta": "el bijuu de 9 colas",
         "tipo": "texto",
         "nivel": "facil",
         "universo": "anime",
         "anime": "naruto"
     },
     {
-        "pregunta": "¿Cuál es la primer espada de Ichigo Kurosaki en Bleach?",
+        "pregunta": "¿Cuál es el nombre de la primer espada de Ichigo Kurosaki en Bleach?",
         "opcion1": "Zabimaru",
         "opcion2": "Kyoka suigetsu",
         "opcion3": "Senbonzakura",
@@ -84,7 +84,7 @@
         "anime": "bleach"
     },
     {
-        "pregunta": "¿Qué gremio de magos pertenece Natsu Dragneel?",
+        "pregunta": "¿A Qué gremio de magos pertenece Natsu Dragneel?",
         "opcion1": "Tartaros",
         "opcion2": "Gremio oscuro",
         "opcion3": "Edoras",
@@ -144,7 +144,7 @@
         "anime": "samurai x"
     },
     {
-        "pregunta": "¿Cuál es el Quirk (poder) principal de Izuku Midoriya en Boku no Hero Academia?",
+        "pregunta": "¿Cuál es el Quirk (poder) de Izuku Midoriya en Boku no Hero Academia?",
         "opcion1": "All for one",
         "opcion2": "Explosión",
         "opcion3": "Fuerza extrema",
@@ -180,7 +180,7 @@
         "anime": "death note"
     },
     {
-        "pregunta": "¿Quién es el cuarto Hokage?",
+        "pregunta": "¿Cómo se llama el cuarto Hokage?",
         "opcion1": "Tobirama Senju",
         "opcion2": "Kakashi Hatake",
         "opcion3": "Hiruzen Sarutobi",
@@ -192,7 +192,7 @@
         "anime": "naruto"
     },
     {
-        "pregunta": "¿Cuál es el nombre del protagonista en shingeki no kyojin?",
+        "pregunta": "¿Cuál es el nombre del protagonista de shingeki no kyojin?",
         "opcion1": "Levi Ackerman",
         "opcion2": "Seke Yeager",
         "opcion3": "Mikasa Ackerman",
@@ -264,7 +264,7 @@
         "anime": "fairy tail"
     },
     {
-        "pregunta": "¿Cuál es el sueño de Edward Elric en Fullmetal Alchemist?",
+        "pregunta": "¿Cuál es el objetivo final de Edward Elric en Fullmetal Alchemist?",
         "opcion1": "Recuperar su cuerpo original",
         "opcion2": "Convertirse en el alquimista más poderoso",
         "opcion3": "Convertirse en rey",
@@ -300,7 +300,7 @@
         "anime": "boruto"
     },
     {
-        "pregunta": "¿Cuál es el nombre de la espada de Sanosuke sagara en Samurai X?",
+        "pregunta": "¿Cuál es el nombre de la espada de Sanosuke Sagara en Samurai X?",
         "opcion1": "Ringeku",
         "opcion2": "Samehada",
         "opcion3": "Shogunato",
@@ -336,7 +336,7 @@
         "anime": "death note"
     },
     {
-        "pregunta": "¿Quién es el líder de la organización Akatsuki en Naruto?",
+        "pregunta": "¿Quién era el líder inicial de la organización Akatsuki en Naruto?",
         "opcion1": "Itachi Uchiha",
         "opcion2": "Kakuzu",
         "opcion3": "Tobi",
@@ -348,7 +348,7 @@
         "anime": "naruto"
     },
     {
-        "pregunta": "¿Cuál es el titan de Armin en Shingeki no Kyojin?",
+        "pregunta": "¿Cuál es el titán de Armin en Shingeki no Kyojin?",
         "opcion1": "Titán Bestia",
         "opcion2": "Titán de Ataque",
         "opcion3": "Titán Acorazado",
@@ -470,10 +470,10 @@
     {
         "pregunta": "¿Qué armas usa Roronoa Zoro en One Piece?",
         "opcion1": "Daga",
-        "opcion2": "Machete",
-        "opcion3": "Pistola",
+        "opcion2": "Machetes",
+        "opcion3": "Pistolas",
         "opcion4": "Arco",
-        "respuesta": "Espada",
+        "respuesta": "Espadas",
         "tipo": "texto",
         "nivel": "facil",
         "universo": "anime",
@@ -481,11 +481,11 @@
     },
     {
         "pregunta": "¿Cuál es el nombre del personaje principal en Death Note?",
-        "opcion1": "L",
-        "opcion2": "Near",
-        "opcion3": "Mello",
-        "opcion4": "Misa",
-        "respuesta": "Light",
+        "opcion1": "L Lauliet",
+        "opcion2": "Near River",
+        "opcion3": "Mihael Kell",
+        "opcion4": "Misa Amane",
+        "respuesta": "Light Yagami",
         "tipo": "texto",
         "nivel": "facil",
         "universo": "anime",
@@ -504,7 +504,7 @@
         "anime": "kimetsu no yaiba"
     },
     {
-        "pregunta": "¿Cuál es el título de la serie que sigue las aventuras naruto?",
+        "pregunta": "¿Cuál es el título de la serie que sigue las aventuras de naruto?",
         "opcion1": "One Piece",
         "opcion2": "Hunter x Hunter",
         "opcion3": "Boruto",
@@ -564,7 +564,7 @@
         "anime": "evangelion"
     },
     {
-        "pregunta": "¿Cuál es el nombre de cabeza de jabalí en Kimetsu no Yaiba?",
+        "pregunta": "¿Cuál es el nombre del cabeza de jabalí en Kimetsu no Yaiba?",
         "opcion1": "Mitsuri",
         "opcion2": "Rengoku",
         "opcion3": "Genya",
@@ -617,10 +617,46 @@
         "opcion2": "Armin",
         "opcion3": "Berthol",
         "opcion4": "Reiner",
-        "respuesta": "Seke",
+        "respuesta": "Zeke",
         "tipo": "texto",
         "nivel": "facil",
         "universo": "anime",
         "anime": "shingeki no kyojin"
+    },
+    {
+        "pregunta": "¿En qué capítulo del manga se besan Kazehaya y Sawako de kimi ni todoke?",
+        "opcion1": "70",
+        "opcion2": "66",
+        "opcion3": "56",
+        "opcion4": "69",
+        "respuesta": "71",
+        "tipo": "texto",
+        "nivel": "dificil",
+        "universo": "manga",
+        "anime": "kimi ni todoke"
+    },
+    {
+        "pregunta": "¿Nombre de la primera persona que Ligth Yagami asesinó?",
+        "opcion1": "Lind L. Tailor",
+        "opcion2": "Takuo Shibuimaru",
+        "opcion3": "Kiichiro Osoreda",
+        "opcion4": "Koki Tanakabara",
+        "respuesta": "Kurou Otoharada",
+        "tipo": "texto",
+        "nivel": "otaku",
+        "universo": "anime",
+        "anime": "death note"
+    },
+    {
+        "pregunta": "¿Cúal fue el primer mecha (Robot pilotado) en ser creado en el anime?",
+        "opcion1": "Gundam Exia",
+        "opcion2": "Eva 01",
+        "opcion3": "El gladiador",
+        "opcion4": "Voltron",
+        "respuesta": "Mazinger Z",
+        "tipo": "texto",
+        "nivel": "animeClasico",
+        "universo": "anime",
+        "anime": "manzinger z"
     }
 ]
